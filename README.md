@@ -49,7 +49,7 @@ This repository contains the code, data processing pipeline, and experimental re
 | LSTM           | 0.918          |
 | **CNN-LSTM**   | **0.922** ✅   |
 
-Detailed performance per class available in the paper and `results/` folder.
+*Detailed performance per class available in the paper and `results/` folder.
 ---
 ## 📁 Repository Structure
 
