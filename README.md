@@ -4,9 +4,8 @@ This repository contains the code, data processing pipeline, and experimental re
 
 📄 [**Read our paper**](https://github.com/irhafidz/dengue_indobert)  
 📊 [**Explore our labeled dataset**](https://github.com/irhafidz/dengue_indobert/tree/main/data)  
-🧠 Developed by researchers from ITS, Universitas Mataram, and Universitas NU Surabaya.
-
----
+🧠 Cited our paper/ APA Citation:
+Azzahra, N. J., Hafidz, I., Restuningdyah, N. A. P., Rangkuti, R. Y., Hedianto, T., Rabsanjani, R., Widyaswari, M. S., & Anggraeni, W. (2025). IndoBERT-based multi-class classification of dengue fever tweets in Indonesian social media. For Submission the 2025 International Conference on Advanced Informatics: Concepts, Theory and Applications (ICAICTA).
 
 ## 📌 Project Highlights
 
