@@ -1,0 +1,45 @@
+{
+  "model_type": "IndoBERT_CNN",
+  "best_parameters": {
+    "batch_size": 16,
+    "max_sequence_length": 77,
+    "learning_rate": 3e-05,
+    "dropout": 0.2,
+    "num_epochs": 5
+  },
+  "training_time_minutes": 1.7092975894610087,
+  "evaluation_results": {
+    "train_accuracy": 0.9841269841269841,
+    "train_macro_f1": 0.9835973904939422,
+    "train_weighted_f1": 0.9841033151377979,
+    "val_accuracy": 0.9,
+    "val_macro_f1": 0.8975612201418653,
+    "val_weighted_f1": 0.9,
+    "confusion_matrix": [
+      [
+        30,
+        0,
+        1
+      ],
+      [
+        1,
+        22,
+        3
+      ],
+      [
+        0,
+        4,
+        29
+      ]
+    ]
+  },
+  "model_architecture": {
+    "num_filters": 100,
+    "filter_sizes": [
+      3,
+      4,
+      5
+    ],
+    "num_labels": 3
+  }
+}

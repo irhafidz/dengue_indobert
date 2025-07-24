@@ -1,0 +1,47 @@
+{
+  "model_type": "IndoBERT_CNN_LSTM",
+  "best_parameters": {
+    "batch_size": 16,
+    "max_sequence_length": 77,
+    "learning_rate": 3e-05,
+    "dropout": 0.2,
+    "num_epochs": 5
+  },
+  "training_time_minutes": 23.345703717072805,
+  "evaluation_results": {
+    "train_accuracy": 0.9424603174603174,
+    "train_macro_f1": 0.9416201727271644,
+    "train_weighted_f1": 0.9427202996491639,
+    "val_accuracy": 0.8444444444444444,
+    "val_macro_f1": 0.8425499231950845,
+    "val_weighted_f1": 0.845084485407066,
+    "confusion_matrix": [
+      [
+        30,
+        1,
+        0
+      ],
+      [
+        1,
+        24,
+        1
+      ],
+      [
+        0,
+        11,
+        22
+      ]
+    ]
+  },
+  "model_architecture": {
+    "num_filters": 64,
+    "filter_sizes": [
+      3,
+      4,
+      5
+    ],
+    "lstm_hidden_size": 128,
+    "num_lstm_layers": 1,
+    "num_labels": 3
+  }
+}
