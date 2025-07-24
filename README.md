@@ -27,12 +27,12 @@ Models Used:
 
 Best Performance:
 
-    Model: IndoBERT + CNN-LSTM
-    F1-score: 0.922 on mixed validation dataset
+- Model: IndoBERT + CNN-LSTM
+- F1-score: 0.922 on mixed validation dataset
 
 🔬 Research Contributions
 
-    Created an Indonesian DHF symptom dictionary from WHO-based clinical meta-analysis
-    Developed a multi-stage preprocessing pipeline: duplicate removal, language filtering, text cleaning
-    Labeled tweets through manual + expert medical validation from pediatricians, dermatologists, GPs, and others
-    Benchmarked four neural architectures with extensive hyperparameter tuning
+- Created an Indonesian DHF symptom dictionary from WHO-based clinical meta-analysis
+- Developed a multi-stage preprocessing pipeline: duplicate removal, language filtering, text cleaning
+- Labeled tweets through manual + expert medical validation from pediatricians, dermatologists, GPs, and others
+- Benchmarked four neural architectures with extensive hyperparameter tuning
