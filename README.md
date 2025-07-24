@@ -53,18 +53,56 @@ Detailed performance per class available in the paper and `results/` folder
 ## 📁 Repository Structure
 
 ```bash
-├── data/                    # Annotated tweets and symptom dictionary
-│   ├── labeled_data.csv     # Final labeled tweets (0, 1, 2)
-│   └── symptom_dict.json    # 60+ symptom variations across 10 categories
-├── notebooks/               # Jupyter Notebooks for preprocessing and training
-│   ├── 01_preprocessing.ipynb
-│   ├── 02_labeling.ipynb
-│   ├── 03_training_CNN.ipynb
-│   ├── 04_training_LSTM.ipynb
-│   └── ...
-├── models/                  # Saved model checkpoints and configs
-├── results/                 # Evaluation reports, loss curves
+├── data/                                  # Dataset and symptom dictionary
+│   ├── tweets_raw/                        # Raw tweets (folder)
+│   ├── Dictionary DHF Symptoms.txt        # Symptom dictionary (raw text format)
+│   └── labelled_2250_data.xlsx            # Final labeled dataset (2250 tweets)
+
+├── models_config/                         # Saved models grouped by dataset size
+│   ├── 743 Datasets Model/                # All models trained on 743 dataset
+│   └── 2250 Datasets Model/               # All models trained on 2250 dataset
+
+├── notebooks/                             # Jupyter Notebooks for preprocessing, classification
+│   ├── Preprocessing_(One_Example).ipynb
+│   ├── DHF_Symptoms_Filtering_(One_example).ipynb
+│   ├── Classification_DHF_of_743_Dataset's_Model_IndoBERT_MLP_CNN_LSTM_CNN_LSTM.ipynb
+│   └── Classification_DHF_of_2250_Dataset's_Model_IndoBERT_MLP_CNN_LSTM_CNN_LSTM.ipynb
+
+├── results/                               # Evaluation results and visualizations
+│
+│   ├── 743 Dataset's Model Figures/
+│   │   ├── Confusion Matrix All Models - Dataset Validated only.png
+│   │   ├── F1 Validation's Comprehensive Viz (Model with 743 Datasets).png
+│   │   ├── Model Efficiency - Performance and Training Time Each Models (743 datasets).png
+│   │   ├── Training Loss - Dataset Validated.png
+│   │   └── Validation Loss - Dataset Validated.png
+│
+│   ├── 743 Dataset's Model Result/
+│   │   ├── results and loss batch/            # Batch logs and figures
+│   │   ├── all_results_combined.xlsx
+│   │   ├── batch_full_experiments.xlsx
+│   │   ├── cnn_lstm_sample_predictions.xlsx
+│   │   ├── cnn_sample_predictions.xlsx
+│   │   ├── Istm_sample_predictions.xlsx
+│   │   └── mlp_sample_predictions.xlsx
+│
+│   ├── 2250 Dataset's Model Figures/
+│   │   ├── Confusion Matrix All Models - Mix Dataset.png
+│   │   ├── F1 Validation's Comprehensive Viz (Model with 2250 Datasets).png
+│   │   ├── Model Efficiency - Performance and Training Time Each Models (2250 datasets).png
+│   │   ├── Training Loss - Mix Dataset.jpg
+│   │   └── Validation Loss - Mix Dataset.jpg
+│
+│   └── 2250 Dataset's Model Result/
+│       ├── results and loss batch/
+│       ├── sample_pred/
+│       ├── all_results_combined.csv
+│       ├── batch_full_experiments.xlsx
+│       ├── experiment_results_table.xlsx
+│       └── experiment_results_table_with_time.xlsx
+
 └── README.md
+
 ```
 
 ---
