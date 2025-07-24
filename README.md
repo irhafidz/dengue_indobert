@@ -1,6 +1,4 @@
-# dengue_indobert
-
-# 🇮🇩 IndoBERT-based Dengue Tweet Classification
+# 🇮🇩 IndoBERT-based Dengue Tweet Classification (dengue_indobert)
 
 This repository contains the code, data processing pipeline, and experimental results for our research on **multi-class classification of Dengue Hemorrhagic Fever (DHF) tweets in the Indonesian language**, using **IndoBERT-based deep learning architectures**. This work supports real-time public health surveillance using social media data.
 
@@ -52,3 +50,22 @@ This repository contains the code, data processing pipeline, and experimental re
 | **CNN-LSTM**   | **0.922** ✅   |
 
 Detailed performance per class available in the paper and `results/` folder.
+---
+## 📁 Repository Structure
+
+```bash
+├── data/                    # Annotated tweets and symptom dictionary
+│   ├── labeled_data.csv     # Final labeled tweets (0, 1, 2)
+│   └── symptom_dict.json    # 60+ symptom variations across 10 categories
+├── notebooks/               # Jupyter Notebooks for preprocessing and training
+│   ├── 01_preprocessing.ipynb
+│   ├── 02_labeling.ipynb
+│   ├── 03_training_CNN.ipynb
+│   ├── 04_training_LSTM.ipynb
+│   └── ...
+├── models/                  # Saved model checkpoints and configs
+├── results/                 # Evaluation reports, loss curves
+└── README.md
+```
+
+---
