@@ -20,10 +20,10 @@ Dataset:
        2,250 labeled tweets (750/class); 743 medically validated
 
 Models Used:
-IndoBERT + MLP
-IndoBERT + CNN
-IndoBERT + LSTM
-IndoBERT + CNN-LSTM (Best)
+- IndoBERT + MLP
+- IndoBERT + CNN
+- IndoBERT + LSTM
+- IndoBERT + CNN-LSTM (Best)
 
 Best Performance:
 
