@@ -1,5 +1,0 @@
-No,Model_Type,Batch_Size,Max_Sequence_Length,Learning_Rate,Dropout,F1_Train,F1_Validation,Training_Time
-61,cnn_lstm,32,128,2e-05,0.2,0.907,0.856,1.78
-62,cnn_lstm,32,128,2e-05,0.3,0.919,0.845,1.39
-63,cnn_lstm,32,128,3e-05,0.2,0.925,0.856,1.86
-64,cnn_lstm,32,128,3e-05,0.3,0.919,0.856,1.56
