@@ -7,7 +7,7 @@ This repository contains the code, data processing pipeline, and experimental re
 🧠 Cited our paper/ APA Citation:
 Azzahra, N. J., Hafidz, I., Restuningdyah, N. A. P., Rangkuti, R. Y., Hedianto, T., Rabsanjani, R., Widyaswari, M. S., & Anggraeni, W. (2025). IndoBERT-based multi-class classification of dengue fever tweets in Indonesian social media. 
 
-The Github page is created for submission the 2025 International Conference on Advanced Informatics: Concepts, Theory and Applications (ICAICTA).
+The Github page is created for submission paper of the 2025 International Conference on Advanced Informatics: Concepts, Theory and Applications (ICAICTA).
 
 ## 📌 Project Highlights
 
