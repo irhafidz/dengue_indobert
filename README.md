@@ -2,7 +2,7 @@
 
 This repository contains the code, data processing pipeline, and experimental results for our research on **multi-class classification of Dengue Hemorrhagic Fever (DHF) tweets in the Indonesian language**, using **IndoBERT-based deep learning architectures**. This work supports real-time public health surveillance using social media data.
 
-📄 [**Read our paper**](https://github.com/irhafidz/dengue_indobert)  
+📄 [**Read our paper**](https://github.com/irhafidz/dengue_indobert)
 📊 [**Explore our labeled dataset**](https://github.com/irhafidz/dengue_indobert/tree/main/data)
 📈 [**Explore the figures and tables with high-resolution images from our paper**](https://github.com/irhafidz/dengue_indobert/tree/main/results) 
 🧠 Cited our paper/ APA Citation:
@@ -42,6 +42,18 @@ The Github page is created for submission paper of the 2025 International Confer
 - Benchmarked **four neural architectures** with extensive hyperparameter tuning
 
 ---
+
+## 📈 Results Summary
+
+| Model           | F1-score (Val) |
+|----------------|----------------|
+| MLP            | 0.904          |
+| CNN            | 0.922          |
+| LSTM           | 0.918          |
+| **CNN-LSTM**   | **0.922** ✅   |
+Detailed performance per class available in the paper and `results/` folder
+
+---
 ## 🩺 Medical Expert Validation
 
 Our research incorporates **clinical validation** by 5 medical specialists to ensure clinical accuracy and contextual relevance:
@@ -55,17 +67,6 @@ Our research incorporates **clinical validation** by 5 medical specialists to en
 | **General Practitioner** | General Medicine | General DHF symptoms validation | 147 tweets |
 
 **Total medically validated dataset: 743 tweets** with balanced distribution across all classification labels.
----
-## 📈 Results Summary
-
-| Model           | F1-score (Val) |
-|----------------|----------------|
-| MLP            | 0.904          |
-| CNN            | 0.922          |
-| LSTM           | 0.918          |
-| **CNN-LSTM**   | **0.922** ✅   |
-Detailed performance per class available in the paper and `results/` folder
-
 ---
 ## 📁 Repository Structure
 
