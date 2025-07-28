@@ -3,7 +3,7 @@
 This repository contains the code, data processing pipeline, and experimental results for our research on **multi-class classification of Dengue Hemorrhagic Fever (DHF) tweets in the Indonesian language**, using **IndoBERT-based deep learning architectures**. This work supports real-time public health surveillance using social media data.
 
 📄 [**Read our paper**](https://github.com/irhafidz/dengue_indobert)       
-📊 [**Explore our labeled dataset**](https://github.com/irhafidz/dengue_indobert/tree/main/data)          
+📊 [**Explore our labeled and validated dataset (of each doctors)**](https://github.com/irhafidz/dengue_indobert/tree/main/data)          
 📈 [**Explore the figures and tables with high-resolution images from our paper**](https://github.com/irhafidz/dengue_indobert/tree/main/results)                     
 🧠 Cited our paper/ APA Citation:
 Azzahra, N. J., Hafidz, I., Restuningdyah, N. A. P., Rangkuti, R. Y., Hedianto, T., Rabsanjani, R., Widyaswari, M. S., & Anggraeni, W. (2025). IndoBERT-based multi-class classification of dengue fever tweets in Indonesian social media. 
