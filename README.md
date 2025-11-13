@@ -61,10 +61,10 @@ Our research incorporates **clinical validation** by 5 medical specialists to en
 
 | **Specialist** | **Expertise** | **Validation Focus** | **Tweets Validated** |
 |----------------|---------------|---------------------|---------------------|
-| **Pediatrician (Sp.A)** | Pediatric Medicine | DHF symptoms in pediatric cases | 146 tweets |
-| **ENT Specialist (Sp.THT-KL)** | Otorhinolaryngology | Upper respiratory symptom validation | 149 tweets |
-| **Dermatologist (Sp.KK)** | Dermatology | Skin and rash-related symptoms | 155 tweets |
-| **Radiologist (Sp.Rad)** | Radiology | Supporting examination results | 146 tweets |
+| **Pediatrician** | Pediatric Medicine | DHF symptoms in pediatric cases | 146 tweets |
+| **ENT Specialist** | Otorhinolaryngology | Upper respiratory symptom validation | 149 tweets |
+| **Dermatologist** | Dermatology | Skin and rash-related symptoms | 155 tweets |
+| **Radiologist** | Radiology | Supporting examination results | 146 tweets |
 | **General Practitioner** | General Medicine | General DHF symptoms validation | 147 tweets |
 
 **Total medically validated dataset: 743 tweets** with balanced distribution across all classification labels.
